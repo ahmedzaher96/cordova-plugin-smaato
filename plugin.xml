@@ -34,7 +34,7 @@
   <!-- android -->
   <platform name="android">
     <!-- cordova registry, for cordova/plugman CLI, Intel XDK -->
-    <framework src="com.google.android.gms:play-services-ads:11.6.0"/>
+    <framework src="com.google.android.gms:play-services-ads:$PLAY_SERVICES_VERSION"/>
 
     <config-file target="AndroidManifest.xml" parent="/*">
       <uses-permission android:name="android.permission.INTERNET" />
